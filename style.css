@@ -7,8 +7,8 @@ body
 
 body#homepage {
     background-color:       blue;
-    background-image:       url(_background_03.gif),
-                            url(_background_02.gif);
+    background-image:       url(./_background_03.gif),
+                            url(./_background_02.gif);
 
     background-size:        304px 234px,
                             320px 320px;
@@ -19,9 +19,9 @@ body#homepage {
 }
 
 body#romance {
-    background-image:       url(_crystal-beach.gif),
-                            url(_crystal-water_03.gif),
-                            url(_background_02.gif);
+    background-image:       url(./_crystal-beach.gif),
+                            url(./_crystal-water_03.gif),
+                            url(./_background_02.gif);
                             
     background-blend-mode:  exclusion,
                             difference;
