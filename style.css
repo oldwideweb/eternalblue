@@ -1,0 +1,122 @@
+body
+{
+    margin: 0;
+    padding: 0 10px;
+    height: 100%;
+}
+
+body#homepage {
+    background-color:       blue;
+    background-image:       url(_background_03.gif),
+                            url(_background_02.gif);
+
+    background-size:        304px 234px,
+                            320px 320px;
+    background-blend-mode:  normal,
+                            hard-light;
+
+
+}
+
+body#romance {
+    background-image:       url(_crystal-beach.gif),
+                            url(_crystal-water_03.gif),
+                            url(_background_02.gif);
+                            
+    background-blend-mode:  exclusion,
+                            difference;
+
+    background-size:        cover,
+                            cover,
+                            320px 320px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav a, nav a:visited {
+    font-family: "Jacquard 12", 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: red;
+    mix-blend-mode: exclusion;
+    font-size: 24px;
+}
+
+nav a:hover {
+    mix-blend-mode: multiply;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text {
+    font-family: "Jacquard 12", system-ui;
+    color: rgb(0, 0, 180);
+    text-shadow: 1px 1px 0 blue, -1px -1px 0 blue;
+    font-size: 128px;
+    
+    mix-blend-mode: hard-light;
+    
+    margin: 0;
+    padding: 0;
+
+    width: 60rem;
+    text-align: center;
+}
+
+.title {
+
+    position: sticky;
+    top: 0;
+
+    z-index: 100;
+
+    margin-top: 40vh;
+}
+
+.bottom {
+    text-shadow: 1px 1px red, -1px -1px red;
+}
+
+.big-text a, .big-text a:visited {
+    text-decoration: none;
+}
+
+.big-text a:hover {
+    color: rgb(155, 0, 0);
+}
+
+
+.container {
+    margin-top: 50vh;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.contents p {
+    color: white;
+}
+
+.cockatoo {
+    width: 200px;
+    mix-blend-mode: exclusion;
+    border: solid white 1px;
+}
+
+#romance p {
+    color:red;
+    mix-blend-mode: difference;
+}
